@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1925783800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.step.Step.user_open_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-14T17:26:44.725Z",
+        "line": 6,
+        "name": "To add kid Tees into cart",
+        "description": "",
+        "id": "lime-road;to-add-kid-tees-into-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 830093000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.step.Step.launch_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 627494900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the shop men",
+            "match": {
+              "location": "com.step.Step.click_the_shop_men()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520039700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user lands on HomePage",
+            "match": {
+              "location": "com.step.Step.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6049084200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on kids option in HomePage",
+            "match": {
+              "location": "com.step.Step.user_click_on_kids_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11884092000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on striped tees option",
+            "match": {
+              "location": "com.step.Step.user_click_on_better_basic_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103461300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click blue cotton T-shirt",
+            "match": {
+              "location": "com.step.Step.user_click_blue_cotton_t_shirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771351900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user select the t-shirt size",
+            "match": {
+              "location": "com.step.Step.user_select_the_t_shirt_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5427251600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on Add to cart button",
+            "match": {
+              "location": "com.step.Step.user_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Lime road",
+    "description": "",
+    "id": "lime-road",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/lime.feature",
+    "tags": []
+  }
+]
